@@ -10,20 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="bg-white shadow">
-        <div className="container mx-auto px-4 py-6 flex justify-between items-center">
-          <div className="logo flex items-center">
-          <Image src="/images/logo.png" width={100} height={100}></Image>
-          <h1 className="text-xl font-bold">Infinite Maya Labs</h1>
-          </div>
-          <nav>
-            <a href="#" className="px-4">Home</a>
-            <a href="#" className="px-4">Games</a>
-            <a href="#" className="px-4">About</a>
-            <a href="#" className="px-4">Contact</a>
-          </nav>
-        </div>
-      </header>
+      
 
       <main>
         <section className="bg-blue-500 text-white py-20">
