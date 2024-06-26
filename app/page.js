@@ -13,7 +13,7 @@ export default function Home() {
       <header className="bg-white shadow">
         <div className="container mx-auto px-4 py-6 flex justify-between items-center">
           <div className="logo flex items-center">
-          <Image src="/logo.png" width={100} height={100}></Image>
+          <Image src="/images/logo.png" width={100} height={100}></Image>
           <h1 className="text-xl font-bold">Infinite Maya Labs</h1>
           </div>
           <nav>
@@ -37,14 +37,14 @@ export default function Home() {
         <section className="container mx-auto px-4 py-16">
           <h2 className="text-3xl font-bold text-center mb-8">Featured Games</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {/* Example Game Card */}
+            {/* Game Card */}
             <div className="bg-white p-6 rounded-lg shadow-md">
-              <img src="/path/to/game-image.jpg" alt="Game Title" className="w-full h-48 object-cover rounded-md mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Game Title</h3>
-              <p className="text-gray-600">Short description of the game.</p>
+              <img src="/images/chemistry-hero.jpg" alt="NCERT Chemistry Practicals Simulation" className="w-full h-48 object-cover rounded-md mb-4" />
+              <h3 className="text-xl font-semibold mb-2">NCERT Chemistry Practicals Simulation</h3>
+              <p className="text-gray-600">An interactive lab simulation game that allows CBSE students to perform NCERT chemistry practicals in a virtual environment.</p>
               <a href="#" className="text-blue-500 mt-4 block">Learn More</a>
             </div>
-            {/* Repeat for more games */}
+            {/* Add more game cards as needed */}
           </div>
         </section>
 
