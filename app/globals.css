@@ -2,3 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+nav > a:hover {
+  
+  border-radius: 20%;
+  background-color: antiquewhite;
+  animation-name: example;
+  animation-duration: 2s;
+}
+
+@keyframes example {
+  from {
+    background-color: rgb(255, 234, 234);
+  }
+  to {
+    background-color: rgb(100, 124, 211);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .brand {
+    display: none;
+  }
+}

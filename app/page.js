@@ -7,7 +7,7 @@ export default function Home() {
       <Head>
 
         <title>Infinite Maya Labs</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/logo.ico" />
       </Head>
 
       
@@ -17,7 +17,7 @@ export default function Home() {
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-4xl font-bold mb-4">Welcome to Infinite Maya Labs</h2>
             <p className="text-xl mb-8">Discover and explore the games I've created.</p>
-            <a href="#" className="bg-white text-blue-500 px-6 py-3 rounded-full font-semibold">Explore Games</a>
+            <a href="/games" className="bg-white text-blue-500 px-6 py-3 rounded-full font-semibold">Explore Games</a>
           </div>
         </section>
 
@@ -29,7 +29,7 @@ export default function Home() {
               <img src="/images/chemistry-hero.jpg" alt="NCERT Chemistry Practicals Simulation" className="w-full h-48 object-cover rounded-md mb-4" />
               <h3 className="text-xl font-semibold mb-2">NCERT Chemistry Practicals Simulation</h3>
               <p className="text-gray-600">An interactive lab simulation game that allows CBSE students to perform NCERT chemistry practicals in a virtual environment.</p>
-              <a href="#" className="text-blue-500 mt-4 block">Learn More</a>
+              <a href="/games" className="text-blue-500 mt-4 block">Learn More</a>
             </div>
             {/* Add more game cards as needed */}
           </div>
